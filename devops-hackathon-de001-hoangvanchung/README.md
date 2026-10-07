@@ -55,7 +55,7 @@ Ghi chu: bo qua anh minh chung screenshots theo lua chon ca nhan.
 
 8. Quy trinh cap nhat website
 May ca nhan them dong Cap nhat lan 2 - [ngay gio] vao src/index.html roi commit va push.
-May chu chay cd /var/www/devops-hackathon-de002-hoangvanchung roi git pull, khong can reload Nginx.
+May chu chay cd /var/www/devops-hackathon-de001-hoangvanchung roi git pull, khong can reload Nginx.
 Kiem tra curl -s http://192.168.0.103:8081 thay noi dung moi la dat.
 
 9. Su co gap phai va cach khac phuc
