@@ -16,7 +16,7 @@ Nginx: nginx/1.24.0 (Ubuntu), xem bang lenh nginx -v
 Git: git version 2.43.0, xem bang lenh git --version
 Noi chay: Server lab, card enp9s0, IP 192.168.0.103
 IP may chu: 192.168.0.103, lay bang lenh hostname -I
-Web root: /var/www/devops-hackathon-de002-hoangvanchung/src
+Web root: /var/www/devops-hackathon-de001-hoangvanchung/src
 
 3. Cau truc du an
 devops-hackathon-de001-hoangvanchung/
@@ -45,7 +45,7 @@ Ghi chu: 80/tcp va 8082/tcp la rule co san cua server chung, giu nguyen.
 6. Cac buoc trien khai
 Buoc 1 tao user: sudo useradd -m -s /bin/bash hoangvanchung-cntt1, sudo usermod -aG sudo hoangvanchung-cntt1, sudo passwd hoangvanchung-cntt1, su - hoangvanchung-cntt1, id, whoami.
 Buoc 2 cai dat: sudo apt update, sudo apt install -y nginx git ufw curl, sudo systemctl enable --now nginx, systemctl status nginx, git config user.name chunghoang123, git config user.email chungss7890@gmail.com.
-Buoc 3 clone: sudo mkdir -p /var/www, sudo git clone https://github.com/chunghoang123/devops-hackathon-de002-hoangvanchung.git /var/www/devops-hackathon-de002-hoangvanchung, sudo chown -R hoangvanchung-cntt1, find chmod 755 cho thu muc va 644 cho file.
+Buoc 3 clone: sudo mkdir -p /var/www, sudo git clone https://github.com/chunghoang123/devops-hackathon-de001-hoangvanchung.git /var/www/devops-hackathon-de002-hoangvanchung, sudo chown -R hoangvanchung-cntt1, find chmod 755 cho thu muc va 644 cho file.
 Buoc 4 nginx: sudo cp nginx conf vao sites-available, sudo ln -sf sang sites-enabled, sudo rm -f sites-enabled/default, sudo nginx -t, sudo systemctl reload nginx, curl -I http://192.168.0.103:8081.
 Buoc 5 ufw: sudo ufw allow 22/tcp, sudo ufw allow 8081/tcp, sudo ufw --force enable, sudo ufw status verbose.
 
