@@ -8,7 +8,7 @@ Tai khoan Linux: hoangvanchung-cntt1
 GitHub: chunghoang123
 Email: chungss7890@gmail.com
 Cong Nginx: 8081
-Repo: https://github.com/chunghoang123/devops-hackathon-de002-hoangvanchung
+Repo: https://github.com/chunghoang123/devops-hackathon-de001-hoangvanchung
 
 2. Moi truong trien khai
 He dieu hanh: Ubuntu 24.04.5 LTS
